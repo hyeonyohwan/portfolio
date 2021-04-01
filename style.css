@@ -201,10 +201,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-.service .beginner {
-  float: left;
-}
-.service .familiar {
+.service_wrap {
+  display: flex;
+  flex-direction: column;
   float: left;
 }
 .intermediate {
