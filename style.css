@@ -584,3 +584,194 @@ body {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 499px) {
+  /* home */
+  #background {
+    width: 100%;
+  }
+  .home_logo_text i {
+    font-size: 10px;
+  }
+
+  .clickPointer {
+    top: 24%;
+    left: 32%;
+    font-size: 5px;
+    padding: 3px;
+  }
+  .home_logo_text {
+    font-size: 13px;
+  }
+  #nav_home {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+  #nav_profile {
+    position: absolute;
+    top: 15%;
+    left: 33%;
+  }
+  #nav_skills {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+  }
+  #nav_one {
+    position: absolute;
+    top: 7%;
+    left: 60%;
+  }
+  #nav_two {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+  #nav_three {
+    position: absolute;
+    top: 21%;
+    left: 68%;
+  }
+  #nav_four {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+  }
+  #nav_five {
+    position: absolute;
+    top: 29%;
+    left: 57%;
+  }
+  #nav_contact {
+    position: absolute;
+    top: 22%;
+    left: 17%;
+  }
+
+  /* profile */
+  .profile_text {
+    font-size: 15px;
+  }
+  .profile_title {
+    font-size: 30px;
+  }
+  .profile_headText {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  .korean_name {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .en_name {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .en_name {
+    margin-left: 5px;
+    color: rgb(113, 116, 115);
+  }
+  .ht1 {
+    display: flex;
+  }
+  .ht2 {
+    font-size: 16px;
+  }
+  .profile_text {
+    font-size: 12px;
+  }
+
+  /* skills */
+  #check {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .skills_title {
+    font-size: 30px;
+  }
+  .skills_inner_part h1 {
+    font-size: 10px;
+  }
+  .skills_inner_part h2 {
+    font-size: 10px;
+    color: rgb(113, 116, 115);
+  }
+  .skills_logo {
+    width: 10px;
+    height: 10px;
+  }
+  .logo_box {
+    margin: 3px;
+  }
+  .logo_name {
+    font-size: 10px;
+  }
+  .framework {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .language {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .service {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  /* project */
+  .project_title {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .project_name {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .github {
+    font-size: 12px;
+    color: rgb(65, 103, 199);
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .description h1 {
+    font-size: 10px;
+  }
+  .description i {
+    font-size: 10px;
+  }
+  .description li {
+    font-size: 10px;
+  }
+  .container {
+    margin-top: 10px;
+  }
+
+  /* contact */
+  .contact_title {
+    font-size: 30px;
+  }
+  .phone_email {
+    font-size: 12px;
+  }
+  .phone_email i {
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .phone {
+    margin-left: 20px;
+  }
+  .email {
+    margin-left: 20px;
+  }
+}
